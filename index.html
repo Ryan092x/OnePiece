@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>One Piece - Seleção de Personagens</title>
+    <title>One Piece - Project</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/estilos.css">
     <link rel="stylesheet" href="src/css/responsivo.css">
@@ -13,60 +16,53 @@
 
 <body>
     <header class="cabecalho">
-        <img src="src/img/logo.png" alt="Logo One Piece">
+        <img src="src/imagens/logo.png" alt="One Piece">
     </header>
 
-    <main class="selecao-de-personagem">
-        <section class="personagens container-personagens">
-            <h1 class="titulo">Selecione um Personagem</h1>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
             <ul class="lista-de-personagens">
-                <li>
+
                 <li class="personagem selecionado" id="luffy" data-name="Luffy"
-                    data-description="Luffy possui poderes de esticar seu corpo como borracha (Gomu Gomu no Mi) e diferentes tipos de Haki para aprimorar suas habilidades de combate.">
-                    <img src="src/img/luffy_icon.png" alt="Monkey D. Luffy">
+                    data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los">
+                    <img src="src/imagens/luffy_icon.jpg" alt="Luffy - Chapéu de Palha">
                 </li>
-                <li>
-                <li class="personagem" id="nami" data-name="Nami"
-                    data-description="Nami é uma navegadora excepcional e especialista em roubos e engenharia. Além disso, ela utiliza o Clima-Tact, um bastão que manipula o clima para criar ataques e defesas.">
-                    <img src="src/img/nami_icon.png" alt="Nami">
+
+                <li class="personagem" id="zoro" data-name="Zoro" data-description="">
+                    <img src="src/imagens/zoro_icon.jpg" alt="Zoro - Caçador de Piratas">
                 </li>
-                <li>
+
                 <li class="personagem" id="sanji" data-name="Sanji"
-                    data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los">
-                    <img src="src/img/sanji_icon.jpg" alt="Sanji">
+                    data-description="Ela tem o poder de atravessar matéria sólida,campos de energia,rajadas ópticas, continuando intacta,e também tem o poder de andar no ar">
+                    <img src="src/imagens/sanji_icon.jpg" alt="Sanji - Perna Negra">
                 </li>
-                <li>
-                <li class="personagem" id="zoro" data-name="Zoro"
-                    data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los">
-                    <img src="src/img/zoro_icon.jpg" alt="Roronoa Zoro">
+
+                <li class="personagem" id="nami" data-name="Nami"
+                    data-description="">
+                    <img src="src/imagens/nami_icon.png" alt="Nami - Gata Ladra">
                 </li>
-                <li class="personagem" id="zoro" data-name="Zoro"
-                    data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los">
-                    <img src="src/img/zoro_icon.jpg" alt="Roronoa Zoro">
-                </li>
-                <li class="personagem" id="zoro" data-name="Zoro"
-                    data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los">
-                    <img src="src/img/zoro_icon.jpg" alt="Roronoa Zoro">
-                </li>
-                <li class="personagem" id="zoro" data-name="Zoro"
-                    data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los">
-                    <img src="src/img/zoro_icon.jpg" alt="Roronoa Zoro">
-                </li>
-                <li class="personagem" id="zoro" data-name="Zoro"
-                    data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los">
-                    <img src="src/img/zoro_icon.jpg" alt="Roronoa Zoro">
-                </li>
-                <li>
+                
+                <li class="personagem" id="chopper" data-name="Chopper"
+                data-description="">
+                <img src="src/imagens/chopper_icon.jpg" alt="Chopper - O Humano">
+            </li>
+
+            <li class="personagem" id="usopp" data-name="Usopp" data-description="">
+                <img src="src/imagens/usopp_icon.jpg" alt="Usopp - Rei dos Atiradores">
+            </li>
             </ul>
         </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="src/imagens/card-luffy.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagens">
+                <h2 class="nome-personagem" id="nome-personagem">Luffy</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Luffy possui poderes de esticar seu corpo como
+                    borracha (Gomu Gomu no Mi) e diferentes tipos de Haki para aprimorar suas habilidades de combate.
+                </p>
+            </div>
+        </section>
     </main>
-    <section class="personagem-selecionado">
-        <img class="personagem-grande" src="" alt="Personagem Selecionado">
-        <div class="informacoes-personagens">
-            <h2 class="nome-personagem" id="nome-personagem">Luffy</h2>
-            <p class="descricao-personagem" id="descricao-personagem">Luffy possui poderes de esticar seu corpo como borracha (Gomu Gomu no Mi) e diferentes tipos de Haki para aprimorar suas habilidades de combate.</p>
-        </div>
-    </section>
     <script src="src/js/index.js"></script>
 </body>
 

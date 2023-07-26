@@ -2,7 +2,6 @@
     .cabecalho .logo {
         max-width: 190px;
     }
-
     .selecao-de-personagens{
         flex-direction: column-reverse;
         max-width: 430px;
@@ -21,8 +20,13 @@
         gap: 9px;
     }
 
+    .selecao-de-personagens .personagem {
+        margin: 12px;
+    }
+
     .selecao-de-personagens .personagem img {
-        width: 80px;
+        width: 100%;
+        gap: 30px;
     }
     .personagem-selecionado .personagem-grande {
         width: 350px;
